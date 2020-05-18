@@ -64,3 +64,6 @@ To help visualize the structure of the components, please reference the below st
     - Transaction.js
   - NewTransaction.js
 
+## Credits
+
+The Undermine Journal (https://theunderminejournal.com/#us/illidan) - Website that tracks all the latest WoW auction house news and economy
