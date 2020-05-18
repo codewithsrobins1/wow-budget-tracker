@@ -15,7 +15,7 @@ https://wowgoldtracker.netlify.app/
 * Build a budget tracking application with React
 * Utilize the Context API to manage state
 * Practice building a landing page for an application
-* Create a wave-live SVG to implement on landing page
+* Create a wave-like SVG to implement on landing page
 
 ## Built With
 
