@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
     return (
         <div>
-            <h2>WoW Budget Tracker</h2>
+            <h2 id="app-title">WoW Budget Tracker</h2>
         </div>
     )
 }

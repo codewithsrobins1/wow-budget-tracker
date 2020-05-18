@@ -14,7 +14,7 @@ const Balance = () => {
     const total = amounts.reduce((acc, item) => (acc += item), 0)
 
     return (
-        <div>
+        <div className="app-balance">
             <h4>Your Balance:</h4>
             <h1><span className="goldCoin"><img src="goldCoin.svg" alt="gold coin" /></span>{total}</h1>
         </div>

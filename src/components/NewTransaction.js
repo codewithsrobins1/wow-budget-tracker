@@ -26,17 +26,17 @@ const NewTransaction = () => {
             <h3>Add new transaction</h3>
             <form onSubmit={addNewTransaction}>
                 <div className="form-control">
-                    <label htmlFor="text">Text</label>
-                    <input type="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="Enter text..." />
+                    <label htmlFor="text">Item</label>
+                    <input type="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="Enter item..." required />
                 </div>
                 <div className="form-control">
                     <label htmlFor="amount">
                         Amount <br />
                         (negative - expense, positive - income)
                     </label>
-                    <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter amount..." />
+                    <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter amount..." required />
                 </div>
-                <button className="btn">
+                <button className="form-control-button">
                     Add transaction
                 </button>
       </form>

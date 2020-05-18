@@ -18,7 +18,7 @@ const Transaction = ({transaction}) => {
                 <span className="goldCoin"><img src="goldCoin.svg" alt="gold coin" /></span>
                 {Math.abs(transaction.amount)}
             </span>
-            <button className="delete-btn" onClick={() => deleteTransaction(transaction.id)}>x</button>
+            <button className="delete-button" onClick={() => deleteTransaction(transaction.id)}>x</button>
         </li>
     )
 }

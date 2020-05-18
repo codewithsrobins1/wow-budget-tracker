@@ -30,15 +30,12 @@ html{
   align-items: center;
 }
 
-.landing-page h2{
-  font-size: 20px;
-}
-
 .nav-links li{
   display: inline-block;
+  padding: 0px 20px;
   list-style: none;
   cursor: pointer;
-  padding: 0px 10px;
+  
 }
 
 .nav-links a{
@@ -46,17 +43,21 @@ html{
   text-transform: uppercase;
   font-weight: 600;
   color: inherit;
-  font-size: 15px;
+  font-size: 18px;
   transition: all .3s;
-  /* border-bottom: 2px solid transparent; */
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
 }
 
 .nav-links a:hover{
-  /* border-bottom: 2px solid #142850; */
+  border-bottom: 2px solid #142850;
 }
 
 /*Hero Section */
 .hero-section{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
   color: #142850;
 }
 
@@ -66,7 +67,7 @@ html{
 }
 
 .hero-section__description{
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
   font-size: 20px;
   font-family: 'Merriweather', serif;
@@ -75,11 +76,12 @@ html{
 
 #wow{
   font-weight: 700;
-  color: 	#e8b923;
+  color: 	#e8b923; 
+
 }
 
 .hero-section__heading h2{
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .hero-button{
@@ -103,7 +105,6 @@ html{
 }
 
 .hero-svg{
-  display: none;
   max-height: 400px;
 }
 
@@ -151,10 +152,6 @@ h4 {
   margin: 0;
   text-transform: uppercase;
   color: #fff;
-}
-
-.inc-exp-container-title{
-  color: #00909e;
 }
 
 .inc-exp-container {
@@ -212,7 +209,7 @@ input[type='number'] {
   outline: none;
 }
 
-.form-control-button {
+.btn {
   cursor: pointer;
   background-color: #00909e;
   box-shadow: var(--box-shadow);
@@ -225,8 +222,8 @@ input[type='number'] {
   width: 100%;
 }
 
-.form-control-button:focus,
-.delete-form-control-button:focus {
+.btn:focus,
+.delete-btn:focus {
   outline: 0;
 }
 
@@ -255,7 +252,7 @@ input[type='number'] {
   border-right: 5px solid #c0392b;
 }
 
-.delete-button {
+.delete-btn {
   cursor: pointer;
   background-color: #e74c3c;
   border: 0;
@@ -271,107 +268,6 @@ input[type='number'] {
   transition: opacity 0.3s ease;
 }
 
-.list li:hover .delete-button {
+.list li:hover .delete-btn {
   opacity: 1;
-}
-
-
-/* Media Queries */
-@media (min-width: 768px) {
-  /* Landing Page Styles */
-
-  /*Hero Section */
-  .hero-section__description{
-    width: 60%;
-    font-size: 16px;
-  }
-
-  .hero-section__heading h2{
-    font-size: 45px;
-  }
-
-  .hero-svg{
-    display: block;
-    height: 250px;
-    margin: 0 auto;
-    margin-top: 50px;
-  }
-}
-
-@media (min-width: 992px){
-  /* Landing Page Styles */
-  /*Nav Section */
-  .nav-links a{
-    padding-bottom: 5px;
-    border-bottom: 2px solid transparent;
-  }
-  .nav-links a:hover{
-    border-bottom: 2px solid #142850;
-  }
-
-  /*Hero Section */
-  .hero-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #142850;
-  }
-
-  .hero-svg{
-    display: block;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 50px;
-    width: 50%;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 1200px){
-  /* Landing Page Styles */
-  .hero-section{
-    padding-top: 30px;
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .hero-section__heading h2{
-    font-size: 65px;
-  }
-
-  .hero-section__description{
-    font-size: 20px;
-  }
-
-  .hero-svg{
-    display: block;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 50px;
-  }
-}
-
-@media (min-width: 2000px){
-  /*Nav Section */
-  .landing-page h2{
-    font-size: 25px;
-  }
-  .nav-links a{
-    font-size: 20px;
-  }
-
-  /*Hero Section */
-  .hero-section__heading h2{
-    font-size: 90px;
-  }
-
-  .hero-section__description{
-    font-size: 25px;
-  }
-
-  .hero-button{
-    padding: 20px 70px;
-    font-size: 20px;
-    margin-top: 20px;
-  }
 }

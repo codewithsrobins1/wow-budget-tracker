@@ -23,7 +23,7 @@ const IncomeExpenses = () => {
     return (
         <div className="inc-exp-container">
             <div>
-                <h4>Income</h4>
+                <h4 className="inc-exp-container-title">Income</h4>
                 <p id="money-plus" className="money plus">
                     +
                     <span className="goldCoin"><img src="goldCoin.svg" alt="gold coin" /></span>    
@@ -32,7 +32,7 @@ const IncomeExpenses = () => {
             </div>
 
             <div>
-                <h4>Expenses</h4>
+                <h4 className="inc-exp-container-title">Expenses</h4>
                 <p id="money-plus" className="money minus">
                     -
                     <span className="goldCoin"><img src="goldCoin.svg" alt="gold coin" /></span>    
