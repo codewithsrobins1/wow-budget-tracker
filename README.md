@@ -40,6 +40,11 @@ git clone https://github.com/codewithsrobins1/wow-gold-tracker.git
 npm install i
 
 ```
+3. Start Client
+```sh
+npm start
+
+```
 
 ## React Components
 * App.js – Renders the landing page and application.
